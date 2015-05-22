@@ -1,9 +1,11 @@
 {
-  "name": "debug",
+  "name": "@jden/debug",
   "author": "jden <jason@denizac.org>",
   "version": "1.0.0",
-  "description": "npm.im/debug but automatic",
-  "keywords": ["debug"],
+  "description": "like npm.im/debug with automatic module name branding",
+  "keywords": [
+    "debug"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "mochi"
@@ -11,7 +13,7 @@
   "repository": "git@github.com:jden/debug.git",
   "license": "ISC",
   "readmeFilename": "README.md",
-  "devDependencies": {
-    "mochi": "0.3.0"
+  "dependencies": {
+    "debug": "^2.2.0"
   }
 }
