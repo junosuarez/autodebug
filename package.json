@@ -1,5 +1,5 @@
 {
-  "name": "@jden/debug",
+  "name": "autodebug",
   "author": "jden <jason@denizac.org>",
   "version": "1.0.0",
   "description": "like npm.im/debug with automatic module name branding",
@@ -10,7 +10,7 @@
   "scripts": {
     "test": "mochi"
   },
-  "repository": "git@github.com:jden/debug.git",
+  "repository": "git@github.com:jden/autodebug.git",
   "license": "ISC",
   "readmeFilename": "README.md",
   "dependencies": {

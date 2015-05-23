@@ -1,16 +1,16 @@
-# @jden/debug
+# autodebug
 npm.im/debug but automatic
 
 ## usage
 ```js
-var debug = require('@jden/debug')
+var debug = require('autodebug')
 debug('hello')
 ```
 
 ## example
 ```
-  @jden/debug:test.js test +0ms
-  @jden/debug:test/test.js test in another file +0ms
+  autodebug:test.js test +0ms
+  autodebug:test/test.js test in another file +0ms
 ```
 
 Based on the [`debug`](https://www.npmjs.com/package/debug) module you know and love,
@@ -27,7 +27,7 @@ the `DEBUG` environment variable. See https://www.npmjs.com/package/debug#usage
 
 ## installation
 
-    $ npm install @jden/debug
+    $ npm install autodebug
 
 
 ## contributors
