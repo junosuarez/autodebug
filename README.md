@@ -2,6 +2,7 @@
 
 https://npm.im/debug but with automatic namespacing
 
+[![Build Status](https://travis-ci.org/jsdnxx/autodebug.svg?branch=master)](https://travis-ci.org/jsdnxx/autodebug)
 
 ## usage
 
