@@ -1,16 +1,20 @@
 # autodebug
-npm.im/debug but automatic
+
+https://npm.im/debug but with automatic namespacing
+
 
 ## usage
+
 ```js
 var debug = require('autodebug')
 debug('hello')
 ```
 
 ## example
+
 ```
-  autodebug:test.js test +0ms
-  autodebug:test/test.js test in another file +0ms
+  autodebug:foo test +0ms
+  autodebug:foo:bar test in another file +0ms
 ```
 
 Based on the [`debug`](https://www.npmjs.com/package/debug) module you know and love,
@@ -20,19 +24,26 @@ boilerplate.
 
 ## api
 
-just require in in each module you want to debug from and call it with things you want to debug
+Just require `autodebug` in each module you want to debug from and call it
+with things you want to debug
 
-just like the original `debug` module, you can control which modules' debug output is shown with
-the `DEBUG` environment variable. See https://www.npmjs.com/package/debug#usage
+Just like the original `debug` module, you can control which modules' debug
+output is shown with the `DEBUG` environment variable.
+
+See https://www.npmjs.com/package/debug#usage
+
 
 ## installation
 
-    $ npm install autodebug
+```bash
+$ npm install autodebug
+```
 
 
 ## contributors
 
 - jden <jason@denizac.org>
+- tootallnate <n@n8.io>
 
 
 ## license
