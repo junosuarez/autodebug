@@ -8,12 +8,15 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "echo ok"
+    "test": "standard"
   },
   "repository": "git@github.com:jden/autodebug.git",
   "license": "ISC",
   "readmeFilename": "README.md",
   "dependencies": {
     "debug": "^2.2.0"
+  },
+  "devDependencies": {
+    "standard": "^8.3.0"
   }
 }

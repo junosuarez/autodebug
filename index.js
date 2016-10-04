@@ -4,7 +4,7 @@ var debug = require('debug')
 
 var root, dir
 
-function tryReadPackageJson(dir) {
+function tryReadPackageJson (dir) {
   var ok = fs.existsSync(path.resolve(dir, 'package.json'))
   if (ok) {
     root = dir
