@@ -1,6 +1,6 @@
 {
   "name": "autodebug",
-  "author": "jden <jason@denizac.org>",
+  "author": "jason@denizac.org",
   "version": "1.0.1",
   "description": "like npm.im/debug with automatic module name branding",
   "keywords": [
@@ -8,7 +8,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "mochi"
+    "test": "echo ok"
   },
   "repository": "git@github.com:jden/autodebug.git",
   "license": "ISC",

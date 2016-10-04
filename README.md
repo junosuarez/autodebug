@@ -42,10 +42,10 @@ $ npm install autodebug
 
 ## contributors
 
-- jden <jason@denizac.org>
+- jason@denizac.org
 - tootallnate <n@n8.io>
 
 
 ## license
 
-ISC. (c) MMXV jden <jason@denizac.org>. See LICENSE.md
+ISC. (c) MMXV jason@denizac.org. See LICENSE.md
