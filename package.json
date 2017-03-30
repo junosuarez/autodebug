@@ -1,7 +1,7 @@
 {
   "name": "autodebug",
   "author": "jason@denizac.org",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "like npm.im/debug with automatic module name branding",
   "keywords": [
     "debug"
